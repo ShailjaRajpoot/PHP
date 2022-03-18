@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+
+</head>
+<body>
+    <!-- <form> -->
+        <!-- <label>Enter your name:</label> <input type="text" name=""><br> -->
+        <!-- <label>Enter your password:</label><input type="password" name=""> -->
+    <!-- </form> -->
+    <form>
+        <table align="center" style="background-color: rgb(100, 175, 209); border-collapse: collapse; height: 700px; width: 500px;">
+            <caption align="center"><b><h2>Registration Page</h2></b></caption>
+            <tr>
+                <td>Enter your name</td>
+                <td><input type="text" name="uname" required="" autocomplete="off" placeholder="Enter you first name" autofocus=""></td>
+            </tr>
+            <tr>
+                <td>Enter your password</td>
+                <td><input type="password" name="pwd" required=""></td>
+            </tr>
+            <tr>
+                <td>Enter your contact</td>
+                <td><input type="number" name="mob" required=""></td>
+            </tr>
+            <tr>
+                <td>Enter your email</td>
+                <td><input type="email" name="eml" required=""></td>
+            </tr>
+            <tr>
+                <td>Select your gender</td>
+                <td>Male<input type="radio" name="g" value="male">Female<input type="radio" name="g" value="female"></td>
+            </tr>
+            <tr>
+                <td>Enter your hobby</td>
+                <td>
+                   Cricket <input type="checkbox" name="x" value="h1">
+                   Football <input type="checkbox" name="x" value="h2">
+                   Basketball <input type="checkbox" name="x" value="h3">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter your address</td>
+                <td><textarea rows="3" cols="15"></textarea></td>
+            </tr>
+            <tr>
+                <td>Enter your DOB</td>
+                <td><input type="date" name=""></td>
+            </tr>
+            <tr>
+                <td>Select your DP</td>
+                <td><input type="file" name=""></td>
+            </tr>
+            <tr>
+                <td>Select your subject</td>
+                <td><input type="select" name=""></td>
+                <td>
+                    <select>
+                        <option value="" selected="" disabled="">Choose subject</option>
+                        <option value="1">Java</option>
+                        <option value="2">C++</option>
+                        <option value="3">Python</option>
+                        <option value="4">Ruby</option>
+                        <option value="5">C#</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="save" value="save">
+                    <input type="submit" name="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
